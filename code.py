@@ -26,8 +26,7 @@ data = pd.read_csv("data.csv")
 ## dictionary of lists
 # Not currently used
 dict = {'company':["KOIPOND", "CHEW", "TANGO"],
-        'degree': ["MBA", "BCA", "M.Tech", "MBA"],
-        'score':[90, 40, 80, 98]}
+        'metric':["VOLUME", "REVENUE", "GRATE"]}
 
 print(data.head(3))
 
