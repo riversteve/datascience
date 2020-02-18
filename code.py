@@ -39,10 +39,12 @@ data_vol = data[(data['Metric'] == "VOLUME")]
 data_rev = data[(data['Metric'] == "REVENUE")]
 data_gra = data[(data['Metric'] == "GRATE")]
 data_time =  data['Time'].unique()
+data_comp = data['Company'].unique()
 
 print(data_vol)
 print()
 print(data_time)
+print(data_comp)
 #df = pd.DataFrame(dict)
 #print(df)
 
